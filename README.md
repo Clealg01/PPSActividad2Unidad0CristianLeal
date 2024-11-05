@@ -45,7 +45,7 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
    - KeePass2 permite la creación de bases de datos cifradas donde se almacenan todas tus contraseñas. Estas bases de datos están protegidas mediante un algoritmo de cifrado avanzado (AES-256).
    - Para crear una nueva base de datos, ve a **Archivo** > **Nuevo** y sigue los pasos para configurar una contraseña maestra que protegerá todos los datos almacenados.
 <p align="center">
-  <img src="./images/Crear Database.png" alt="Descargar keepass en pc">
+  <img src="./images/Crear%20Database.PNG" alt="Crear una base de datos">
 </p>
 <p align="center"><em>Imagen 2: Crear una base de datos</em></p>
 
