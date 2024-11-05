@@ -29,7 +29,7 @@ Para comenzar a trabajar con KeePass2, es necesario descargar e instalar la apli
    - Asegúrate de descargar la versión completa y no solo el archivo portátil si prefieres la instalación tradicional.
 
 <p align="center">
-  <img src="./images/Descargar%20keepass%20en%20pc.png" alt="Descargar keepass en pc">
+  <img src="./images/Descargar%20keepass%20en%20pc.PNG" alt="Descargar keepass en pc">
 </p>
 <p align="center"><em>Imagen 1: Descargar keepass en pc</em></p>
 
@@ -50,7 +50,7 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
 <p align="center"><em>Imagen 2: Crear una base de datos</em></p>
 
 <p align="center">
-  <img src="./images/Crear%20contraseña%20maestra.png" alt="Crear contraseña maestra">
+  <img src="./images/Crear%20contraseña%20maestra.PNG" alt="Crear contraseña maestra">
 </p>
 <p align="center"><em>Imagen 3: Crear contraseña maestra</em></p>
 
@@ -66,12 +66,12 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
    - KeePass2 incluye una herramienta de generación de contraseñas seguras y personalizables. Esta función es útil para crear contraseñas complejas que aumenten la seguridad de tus cuentas.
    - Cada vez que se vaya a introducir una *key* en la BBDD se generará una contraseña con este generador, cuyos valores se puede modificar para generar contraseñas más complejas (como son como introducir carácteres en específico o un mayor número de caracteres) o directamente poner una contraseña que nosotros deseemos.
 <p align="center">
-  <img src="./images/Generar%20key.png" alt="Generar una key">
+  <img src="./images/Generar%20key.PNG" alt="Generar una key">
 </p>
 <p align="center"><em>Imagen 5: Generar una key</em></p>
 
 <p align="center">
-  <img src="./images/Parametros%20generador%20de%20contraseña.png" alt="Parámetros del generador de contraseñas">
+  <img src="./images/Parametros%20generador%20de%20contraseña.PNG" alt="Parámetros del generador de contraseñas">
 </p>
 <p align="center"><em>Imagen 6: Parámetros del generador de contraseñas</em></p>
 
@@ -87,13 +87,13 @@ A continuación, se especificarán los pasos a seguir para conseguir todo esto:
    - Para realizar la exportación en un formato deseado ve a **Archivo** > **Exportar**.
    - Para conseguir la integración con servicios de almacenamiento en la nube descargaremos el plugin **KeeAnywhere**. Dirígete a la página oficial de [KeeAnywhere](https://keeanywhere.de/) para descargar el archivo.
 <p align="center">
-  <img src="./images/Descargar%20plugin.png" alt="Descargar plugin de integración con la nube">
+  <img src="./images/Descargar%20plugin.PNG" alt="Descargar plugin de integración con la nube">
 </p>
 <p align="center"><em>Imagen 7: Descargar plugin de integración con la nube</em></p>
 
    - Una vez descargado, debemos introducir el archivo (que será un .plgx) en la carpeta **Plugins** de la aplicación. Para ello debemos dirigirnos a la carpeta donde tengamos el programa instalado.
 <p align="center">
-  <img src="./images/añadir%20plugin%20en%20la%20carpeta%20de%20plugin.png" alt="Configurar archivo de plugin en la carpeta correspondiente">
+  <img src="./images/añadir%20plugin%20en%20la%20carpeta%20de%20plugin.PNG" alt="Configurar archivo de plugin en la carpeta correspondiente">
 </p>
 <p align="center"><em>Imagen 8: Configurar archivo de plugin en la carpeta correspondiente</em></p>
 
