@@ -5,22 +5,11 @@
 1. [Introducción](./README.md#1-introducción)
 2. [Instalación de KeePass2 en el equipo Windows](./README.md#2-instalación-de-keepass2-en-el-equipo-windows)  
 3. [Principales funcionalidades de KeePass2](./README.md#3-principales-funcionalidades-de-keepass2)
-
-4. [Creación de una Base de Datos de Contraseñas](./GitHub.md#1-funciones-básicas-de-github)
-   - [Funciones Básicas](./GitHub.md#Funciones-Básicas-de-GitHub)
-     - [Crear una Cuenta en GitHub](./GitHub.md#)
-     - [Iniciar sesión en la cuenta de GitHub](./GitHub.md#-1)
-     - [Crear un Repositorio](./GitHub.md#-2)
-     - [Clonar un Repositorio](./GitHub.md#-3)
-     - [Subir Archivos a un Repositorio](./GitHub.md#-4)
-     - [Crear y Gestionar Issues](./GitHub.md#-5)
-     - [Crear un Pull Request](./GitHub.md#-6)
-     - [Revisar y Aceptar Pull Requests](./GitHub.md#-7)
-     - [Configuración de Claves SSH](./GitHub.md#-8)
-   - [Ejemplos prácticos y capturas](./GitHub.md#2-capturas-y-ejemplos)
-
-5. [Sincronización con la Nube](#contenidos-del-repositorio)
-6. [Instalación de KeePass2 en el Dispositivo Móvil]()
+   - [Creación y Gestión de Bases de Datos de Contraseñas](#1-creación-y-gestión-de-bases-de-datos-de-contraseñas)
+   - [Organización en Grupos y Categorías](#2-organización-en-grupos-y-categorías)
+   - [Generador de Contraseñas Seguras](#3-generador-de-contraseñas-seguras)
+   - [Sincronización, Copia de Seguridad y exportación de las BBDD](#4-sincronización-copia-de-seguridad-y-exportación-de-las-bbdd)
+   - [Aplicación para teléfono móvil](#5-aplicación-para-teléfono-móvil)
 
 ---
 
@@ -52,7 +41,7 @@ Para comenzar a trabajar con KeePass2, es necesario descargar e instalar la apli
 ## 3. Principales funcionalidades de KeePass2
 KeePass2 es un gestor de contraseñas seguro y de código abierto que permite gestionar y almacenar contraseñas de manera eficiente. A continuación, se describen las funcionalidades más destacadas de la aplicación y cómo pueden ser utilizadas para gestionar tus credenciales de forma segura.
 
-1. **Creación y Gestión de Bases de Datos de Contraseñas**:
+##### 1. **Creación y Gestión de Bases de Datos de Contraseñas**:
    - KeePass2 permite la creación de bases de datos cifradas donde se almacenan todas tus contraseñas. Estas bases de datos están protegidas mediante un algoritmo de cifrado avanzado (AES-256).
    - Para crear una nueva base de datos, ve a **Archivo** > **Nuevo** y sigue los pasos para configurar una contraseña maestra que protegerá todos los datos almacenados.
 <p align="center">
@@ -65,7 +54,7 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
 </p>
 <p align="center"><em>Imagen 3: Crear contraseña maestra</em></p>
 
-2. **Organización en Grupos y Categorías**:
+##### 2. **Organización en Grupos y Categorías**:
    - La aplicación permite organizar las contraseñas en grupos o categorías para facilitar su acceso y gestión. Por ejemplo, puedes crear grupos separados para *trabajo*, *personal*, *bancos*, *redes sociales*, etc.
 
 <p align="center">
@@ -73,7 +62,7 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
 </p>
 <p align="center"><em>Imagen 4: Organizacion de categorias y contraseñas de una base de datos</em></p>
 
-3. **Generador de Contraseñas Seguras**:
+##### 3. **Generador de Contraseñas Seguras**:
    - KeePass2 incluye una herramienta de generación de contraseñas seguras y personalizables. Esta función es útil para crear contraseñas complejas que aumenten la seguridad de tus cuentas.
    - Cada vez que se vaya a introducir una *key* en la BBDD se generará una contraseña con este generador, cuyos valores se puede modificar para generar contraseñas más complejas (como son como introducir carácteres en específico o un mayor número de caracteres) o directamente poner una contraseña que nosotros deseemos.
 <p align="center">
@@ -86,7 +75,7 @@ KeePass2 es un gestor de contraseñas seguro y de código abierto que permite ge
 </p>
 <p align="center"><em>Imagen 6: Parámetros del generador de contraseñas</em></p>
 
-4. **Sincronización, Copia de Seguridad y exportación de las BBDD**:
+##### 4. **Sincronización, Copia de Seguridad y exportación de las BBDD**:
 
 KeePass2 permite sincronizar bases de datos con servicios en la nube usando plugins. Esta función es útil si necesitas acceder a tus contraseñas desde múltiples dispositivos. Plugins como **KeeAnywhere** facilitan la integración con servicios de almacenamiento en la nube como Google Drive, Dropbox, y OneDrive. 
 
@@ -108,4 +97,46 @@ A continuación, se especificarán los pasos a seguir para conseguir todo esto:
 </p>
 <p align="center"><em>Imagen 8: Configurar archivo de plugin en la carpeta correspondiente</em></p>
 
-   - asdfg
+   - Una vez integrado el plugin en la carpeta, debemos reiniciar la aplicación y, en *herramientas*, nos aparecerá una opción para el plugin. En nuestro caso elegiremos el caso de Google Drive Restricted, que es la opción con la que mejor trabaja el plugin.
+<p align="center">
+  <img src="./images/Opcion%20plugin.png" alt="Elegir opción con la herramienta del plugin">
+</p>
+<p align="center"><em>Imagen 9: Elegir opción con la herramienta del plugin</em></p>
+
+   - Una vez seleccionada no saldrá un desplegable en el buscador para iniciar sesión con google. Aquí introducimos nuestra cuenta para poder conectarnos con la nube
+<p align="center">
+  <img src="./images/Opcion%20plugin.png" alt="Elegir opción con la herramienta del plugin">
+</p>
+<p align="center"><em>Imagen 10: Introducir cuenta para Google Drive</em></p>
+
+   - Una vez introducida la cuenta tenemos 2 métodos de guardado. 
+     - *Guardar en url*: es una opción en la que directamente la base de datos se conecta a la nube, por lo que siempre estará en la nube y necesitas siempre internet para conectarte a ella
+     - *Guardar copia en la nube*: esta opción es la que escogeremos, puesto que guarda una copia de nuestra base en la nube, así podemos acceder a nuestras contraseña sin wifi y tendremos la copia de respaldo en la nube. Para utilizar esta opción, vamos a **Archivo** > **Guardar como** > **Guardar copia en la nube**. Nos saldrá una herramienta en la que podremos navegar sobre carpeta (solo carpeta y archivos .kdbx) para guarda la copia donde deseemos. En *filename* debemos ponerle un nombre identificativo a la copia, distinto a la que tenemos en el programa. 
+> ⚠️ **NOTA:** Copiamos la URL donde guardamos la copia para el siguiente paso, para poder hacer la sincronización. La URL debe ser con el propio archivo incluido dentro, no solo con la carpeta.
+<p align="center">
+  <img src="./images/Guardar%20copia%20nube.png" alt="Guardar una copia en la nube">
+</p>
+<p align="center"><em>Imagen 11: Guardar una copia en la nube</em></p>
+
+   - Por último, para que los cambios que hagamos en local se hagan efectivos en la copia de la nube y viceversa, debemos activar la sincronización. Con la url de la copia nos dirigimos a **Archivo** > **Sincronizar** > **Guardar copia en la nube**. Aquí debemos introducir la URL hacia la copia y las credenciales de la cuenta en la que está alojada la copia. Es mejor seleccionar la opción de recordar usuario y contraseña para que no esté pidiendolos constantemente, ademas éstas se guardan en un fichero encriptado, por lo que solo nosotros las conocemos.
+<p align="center">
+  <img src="./images/Activar%20sincronizacion.png" alt="Activar Sincronización">
+</p>
+<p align="center"><em>Imagen 12: Activar Sincronización</em></p>
+
+##### 5. Aplicación para teléfono móvil
+Como tenemos realizada toda la configuración con la nube, podemos compartir las bases de datos con otros dispositivos, por ejemplo un teléfono movil. En Android, la aplicación está en Google Play Store. Una vez descargada la aplicación solo hay que dar a la pestaña abrir archivo. Se desplegará el inicio de sesión con la cuenta que deseemos (en nuestro caso de Google). Seleccionamos la base de datos que se deese abir. Introduce la clave maestra de la base de datos y tendrá acceso a ella.
+<p align="center">
+  <img src="./images/inicio%20en%20movil.jpg" alt="Activar Sincronización">
+</p>
+<p align="center"><em>Imagen 13: Aplicación para Android</em></p>
+
+<p align="center">
+  <img src="./images/seleccionar%20archivo%20en%20movil.jpg" alt="Seleccionar base de datos">
+</p>
+<p align="center"><em>Imagen 14: Seleccionar base de datos</em></p>
+
+<p align="center">
+  <img src="./images/cuentas%20en%20movil.jpg" alt="Cuentas y contraseñas desde el móvil">
+</p>
+<p align="center"><em>Imagen 15: Cuentas y contraseñas desde el móvil</em></p>
